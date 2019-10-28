@@ -27,7 +27,7 @@ function paintToCanvas(){
         //mess with them
         pixels = redEffect(pixels);
         //put them back
-        const pixels = ctx.getImageData(0, 0, width, height)
+        ctx.getImageData(0, 0, width, height)
     }, 16);
     
 }
